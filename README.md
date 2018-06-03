@@ -1,6 +1,8 @@
 ﻿# AudioWatermarkDemo
 
 Sử dụng thuật toán LSB để chèn chữ kí vào file (*.WAV)
+
+
 1,
 
 	* Cấu hình file "php.ini": 
