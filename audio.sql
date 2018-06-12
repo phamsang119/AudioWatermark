@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.0.1
+-- version 4.7.4
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 16, 2018 at 01:47 PM
--- Server version: 10.1.32-MariaDB
--- PHP Version: 7.2.5
+-- Generation Time: Jun 12, 2018 at 11:42 AM
+-- Server version: 10.1.28-MariaDB
+-- PHP Version: 7.1.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `audiowatermarkdemo`
+-- Database: `audio`
 --
 
 -- --------------------------------------------------------
@@ -43,13 +43,13 @@ CREATE TABLE `multimedia` (
 --
 
 INSERT INTO `multimedia` (`id`, `parentid`, `song`, `singer`, `url`, `type`, `owner`) VALUES
-('1j_daLkrbT5ceeu59RCTAK49YJMqPj9t5', '1rTXshEwMK-fdf1Itha-xDn2ab6zvH9jq', 'Nguoi La Oi', 'Karik Orange Superbrothers', 'https://drive.google.com/file/d/1j_daLkrbT5ceeu59RCTAK49YJMqPj9t5/view?usp=sharing', 'music', 'tester'),
-('1p2Icp8IVdrrqMgAkC1N0j3KW5MDYFmRh', '1p2Icp8IVdrrqMgAkC1N0j3KW5MDYFmRh', 'LuaDoiHayNiemDau', 'DuyNgocAnnieThuThuy', 'https://drive.google.com/file/d/1p2Icp8IVdrrqMgAkC1N0j3KW5MDYFmRh/view?usp=sharing', 'music', 'administrator'),
-('1rTXshEwMK-fdf1Itha-xDn2ab6zvH9jq', '1rTXshEwMK-fdf1Itha-xDn2ab6zvH9jq', 'Nguoi La Oi', 'Karik Orange Superbrothers', 'https://drive.google.com/file/d/1rTXshEwMK-fdf1Itha-xDn2ab6zvH9jq/view?usp=sharing', 'music', 'administrator'),
-('1T0Q2XfQPkAFUuUoMhqM5JnbAHImbCkVc', '1T0Q2XfQPkAFUuUoMhqM5JnbAHImbCkVc', 'Buon Cua Anh', 'Dat G', 'https://drive.google.com/file/d/1T0Q2XfQPkAFUuUoMhqM5JnbAHImbCkVc/view?usp=sharing', 'music', 'administrator'),
-('1w4HYO1LZ1_sUU3015D2uwE1TSrafkJpQ', '1w4HYO1LZ1_sUU3015D2uwE1TSrafkJpQ', 'ngam hoa le roi', 'chau khai phong', 'https://drive.google.com/file/d/1w4HYO1LZ1_sUU3015D2uwE1TSrafkJpQ/view?usp=sharing', 'music', 'administrator'),
-('1zNkeJforYE54OxZhwnPd33B9-P6gL0lR', '1zNkeJforYE54OxZhwnPd33B9-P6gL0lR', 'Quan Trong La Than Thai', 'OnlyC Karik ', 'https://drive.google.com/file/d/1zNkeJforYE54OxZhwnPd33B9-P6gL0lR/view?usp=sharing', 'music', 'administrator'),
-('logo', 'logo', NULL, NULL, 'http://localhost/audiowatermarkdemo/picture/logo.png', 'picture', 'administrator');
+('10RJEFFCAjY0pv7TnvNjK5G1ni066Kktb', '10RJEFFCAjY0pv7TnvNjK5G1ni066Kktb', 'La La La', 'Sam Smith', 'https://drive.google.com/file/d/10RJEFFCAjY0pv7TnvNjK5G1ni066Kktb/view?usp=sharing', 'music', 'administrator'),
+('16kiRxx3YCtINq8qVXzl_UVlxYeuqB99s', '10RJEFFCAjY0pv7TnvNjK5G1ni066Kktb', 'La La La', 'Sam Smith', 'https://drive.google.com/file/d/16kiRxx3YCtINq8qVXzl_UVlxYeuqB99s/view?usp=sharing', 'music', 'sang111'),
+('1KKwnm3XXGbbRVshhaXXg2vZiZoI1f8MS', '1T8Ebyl3vblZPA3xmXoE9YV0PFInMz8qk', 'Ben ay ben nay', 'Dan Truong', 'https://drive.google.com/file/d/1KKwnm3XXGbbRVshhaXXg2vZiZoI1f8MS/view?usp=sharing', 'music', 'test001'),
+('1T8Ebyl3vblZPA3xmXoE9YV0PFInMz8qk', '1T8Ebyl3vblZPA3xmXoE9YV0PFInMz8qk', 'Ben ay ben nay', 'Dan Truong', 'https://drive.google.com/file/d/1T8Ebyl3vblZPA3xmXoE9YV0PFInMz8qk/view?usp=sharing', 'music', 'administrator'),
+('1thELs57oCkeScjby-Pg10jKsv0kgNaE9', '1T8Ebyl3vblZPA3xmXoE9YV0PFInMz8qk', 'Ben ay ben nay', 'Dan Truong', 'https://drive.google.com/file/d/1thELs57oCkeScjby-Pg10jKsv0kgNaE9/view?usp=sharing', 'music', 'sang123'),
+('1ytfQKTfANu4AcAtosN-vxsd9VU-OXD0l', '1ytfQKTfANu4AcAtosN-vxsd9VU-OXD0l', 'demo wav music', 'sang pham', 'https://drive.google.com/file/d/1ytfQKTfANu4AcAtosN-vxsd9VU-OXD0l/view?usp=sharing', 'music', 'administrator'),
+('logo', 'logo', NULL, NULL, 'http://localhost:81/audio/picture/logo.png', 'picture', 'administrator');
 
 -- --------------------------------------------------------
 
@@ -110,7 +110,7 @@ CREATE TABLE `siteinfo` (
 --
 
 INSERT INTO `siteinfo` (`companyname`, `slogan`, `seokeywords`, `seodescription`, `facebook`, `logo`, `copyright`, `copyright_ln2`) VALUES
-('Audio Watermark Demo', 'Vo Xuan Khang _ N14DCAT083 _ PTITHCM', 'audio, watermark, demo', 'Audio Watermark Demo', 'https://www.facebook.com/fvoxuankhang', 'logo', '{companyname} © 2018', 'From Ho Chi Minh city with <span id=\"heart\">❤</span>');
+('Audio Watermark Demo', 'Pham Ba Sang', 'audio, watermark, demo', 'Audio Watermark Demo', 'https://www.facebook.com/phambasang119', 'logo', '{companyname} © 2018', 'From Ho Chi Minh city with <span id=\"heart\">❤</span>');
 
 -- --------------------------------------------------------
 
@@ -130,6 +130,11 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`id`, `password`, `permission`) VALUES
 ('administrator', '01b307acba4f54f55aafc33bb06bbbf6ca803e9a', 'admin'),
+('sang1', '104b9debd961c901985838f4d4533e9f64891279', 'user'),
+('sang111', '01b307acba4f54f55aafc33bb06bbbf6ca803e9a', 'user'),
+('sang123', '01b307acba4f54f55aafc33bb06bbbf6ca803e9a', 'user'),
+('test001', '929d3ba22d02b494dd0971784a3700c3dbf1d89f', 'user'),
+('test123', 'c6922b6ba9e0939583f973bc1682493351ad4fe8', 'user'),
 ('tester', 'f7c3bc1d808e04732adf679965ccc34ca7ae3441', 'user');
 
 --
